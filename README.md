@@ -1,3 +1,0 @@
-# java-convention
-
-## Master
