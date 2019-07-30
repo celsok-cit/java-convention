@@ -2,9 +2,9 @@ package br.com.ciandt.login.service;
 
 public class ComentarioService {
 
-	private final static String comentarioAdicionado = new String("Comentário adicionado!"); 
+	private final static String comentarioRemovido = new String("Comentário removido!"); 
 	
-	public ComentarioService() {}
+public ComentarioService() {}
 	
 	public Boolean Adicionarlike (String comentario) 
 	{
@@ -17,6 +17,6 @@ public class ComentarioService {
 		
 	}
 	public String _remover10(){
-		return comentarioAdicionado;		
+		return comentarioRemovido;		
 	}
 }
