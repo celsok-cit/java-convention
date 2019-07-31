@@ -6,7 +6,7 @@ package br.com.ciandt.jwillian.service;
  */
 public class ComentarioService {
 
-
+	//Metodo de criação da constante "COMENTÁRIO_REMOVIDO" tipo String
 	private final static String COMENTARIO_REMOVIDO = new String("Comentário removido!"); 
 
 
@@ -16,13 +16,13 @@ public class ComentarioService {
 	public ComentarioService() {}
 	
 	/**
-	 * Metodo que verificar o comentario
+	 * Metodo que verifica o comentario
 	 * @param comentario {@link String} comentário
 	 * @return true caso valor diferente de null ou false se for null
 	 */
 	public Boolean verificarComentario (String comentario) 
 	{
-		
+		//if que verifica se o valor do comentário é True ou False
 		if(comentario != null){
 			return Boolean.TRUE;
 		}
