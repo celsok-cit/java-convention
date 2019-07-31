@@ -4,7 +4,7 @@ package br.com.ciandt.vnardello.service;
  * Metodo que retorna se a mensagem é null ou não
  *Exemplo {Se o comentario for nulo, o metodo retorna falso} 
  *@param comentario - {Passa uma String por parametro}
- *return 
+ *return comentario
  */
 public class ComentarioService {
 
