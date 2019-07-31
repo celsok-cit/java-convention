@@ -1,6 +1,6 @@
-package br.com.ciandt.login.Models;
+package br.com.ciandt.ewerton.Models;
 
-public class Comentarios1 {
+public class Comentarios {
 
 	private String comentario;
 	
