@@ -1,8 +1,8 @@
-package br.com.ciandt.login.service;
+package br.com.ciandt.waldinei.service;
 
 public class ComentarioService {
 
-	private final static String comentarioRemovido = new String("Comentário removido!"); 
+	private final static String comentarioRemovido = new String("Comentï¿½rio removido!"); 
 	
 public ComentarioService() {}
 	
