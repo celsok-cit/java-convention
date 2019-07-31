@@ -5,13 +5,13 @@ package br.com.ciandt.jwillian.Models;
  * @author jwillian
  *
  */
-public class Comentarios1 {
+public class Comentarios {
 	
 	// variável comentário declarada como String
 	private String comentario;
 	
 	//Metodo construtor da classe "Comentarios1"
-	public Comentarios1() {}
+	public Comentarios() {}
 
 	/**
 	 * Metodo que pega o comentario
