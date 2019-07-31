@@ -1,4 +1,4 @@
-package br.com.ciandt.login.service;
+package br.com.ciandt.celsok.service;
 
 public class ComentarioService {
 
