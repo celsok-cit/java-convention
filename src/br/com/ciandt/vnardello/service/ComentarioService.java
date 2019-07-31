@@ -1,22 +1,30 @@
 package br.com.ciandt.vnardello.service;
 
+/*
+ * Metodo que retorna se a mensagem é null ou não
+ *Exemplo {Se o comentario for nulo, o metodo retorna falso} 
+ *@param comentario - {Passa uma String por parametro}
+ *return 
+ */
 public class ComentarioService {
 
-	private final static String comentarioRemovido = new String("Comentário removido!"); 
-	
-public ComentarioService() {}
-	
-	public Boolean Adicionarlike (String comentario) 
-	{
+	private final static String COMENTARIO_RESOLVIDO = new String("Comentário removido!");
+
+	public ComentarioService() {
+	}
+
+	public Boolean adicionarLike(String comentario) {
 		
-		if(comentario != null){
+		//Se o comentario for diferente de null, o retorno vai ser TRUE, senao, retorna FALSE
+		if (comentario != null) {
 			return Boolean.TRUE;
 		}
-		
+
 		return Boolean.FALSE;
-		
 	}
-	public String _remover10(){
-		return comentarioRemovido;		
+	
+	//Avisa que o comentario foi removido
+	public String remover() {
+		return COMENTARIO_RESOLVIDO;
 	}
 }
