@@ -2,13 +2,11 @@ package br.com.ciandt.waldinei.service;
 
 /**
  * Classe de serviços para comentário
- * 
  * @author waldinei
  */
 public class ComentarioService {
 	/**
 	 * Interface para retorno do comentário
-	 * 
 	 * @return Boolean - status comentário
 	 */
 	private final static String comentarioRemovido = new String("Comentário removido!");
