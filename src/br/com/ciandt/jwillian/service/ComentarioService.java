@@ -10,10 +10,8 @@ public class ComentarioService {
 	private final static String COMENTARIO_REMOVIDO = new String("Comentário removido!"); 
 
 
-	/**
-	 * Metodo contrutor da classe
-	 */
-	public ComentarioService() {}
+	//Metodo contrutor da classe
+	 public ComentarioService() {}
 	
 	/**
 	 * Metodo que verifica o comentario
@@ -22,8 +20,8 @@ public class ComentarioService {
 	 */
 	public Boolean verificarComentario (String comentario) 
 	{
-		//if que verifica se o valor do comentário é True ou False
-		if(comentario != null){
+		//if que verifica se o valor do comentário é diferente de nulo
+		if(comentario != null) {
 			return Boolean.TRUE;
 		}
 		
@@ -35,7 +33,7 @@ public class ComentarioService {
 	 * Metodo que remove comentario
 	 * @return comentário removido
 	 */
-	public String remover(){
+	public String remover() {
 		return COMENTARIO_REMOVIDO;		
 	}
 }
