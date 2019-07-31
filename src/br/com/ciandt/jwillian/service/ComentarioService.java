@@ -7,20 +7,20 @@ package br.com.ciandt.jwillian.service;
 public class ComentarioService {
 
 
-	private final static String comentarioRemovido = new String("Comentário removido!"); 
+	private final static String COMENTARIO_REMOVIDO = new String("Comentário removido!"); 
 
 
-/**
- * Metodo contrutor da classe
- */
-public ComentarioService() {}
+	/**
+	 * Metodo contrutor da classe
+	 */
+	public ComentarioService() {}
 	
 	/**
 	 * Metodo que verificar o comentario
 	 * @param comentario {@link String} comentário
 	 * @return true caso valor diferente de null ou false se for null
 	 */
-	public Boolean adicionarLike (String comentario) 
+	public Boolean verificarComentario (String comentario) 
 	{
 		
 		if(comentario != null){
@@ -36,6 +36,6 @@ public ComentarioService() {}
 	 * @return comentário removido
 	 */
 	public String remover(){
-		return comentarioRemovido;		
+		return COMENTARIO_REMOVIDO;		
 	}
 }
