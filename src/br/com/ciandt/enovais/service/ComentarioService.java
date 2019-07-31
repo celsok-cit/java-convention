@@ -8,7 +8,7 @@ package br.com.ciandt.enovais.service;
  */
 public class ComentarioService {
 
-	private final static String comentarioRemovido = new String("Comentário removido!");
+	private final static String COMENTARIO_REMOVIDO = new String("Comentário removido!");
 
 	public ComentarioService() {
 	}
@@ -25,6 +25,6 @@ public class ComentarioService {
 
 	// remove o comentário
 	public String remover() {
-		return comentarioRemovido;
+		return COMENTARIO_REMOVIDO;
 	}
 }
