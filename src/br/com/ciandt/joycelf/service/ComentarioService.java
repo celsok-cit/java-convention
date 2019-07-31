@@ -3,7 +3,7 @@ package br.com.ciandt.joycelf.service;
 /**
  * 
  * @author joycelf
- *
+ *Classe de serviço para comentários
  */
 public class ComentarioService {
 
@@ -32,7 +32,7 @@ public class ComentarioService {
 	 * Notifica que um comentário foi removido
 	 * @return string de comentário removido
 	 */
-	public String _remover() {
+	public String remover() {
 		return COMENTARIO_REMOVIDO;
 	}
 }
