@@ -11,12 +11,12 @@ public class ComentarioService {
 	 * 
 	 * @return Boolean - status comentário
 	 */
-	private final static String comentarioRemovido = new String("Comentário removido!");
+	private final static String COMENTARIO_REMOVIDO = new String("Comentário removido!");
 
 	public ComentarioService() {
 	}
 
-	public Boolean Adicionarlike(String comentario) {
+	public Boolean verificar_comentário(String comentario) {
 
 		if (comentario != null) {
 			return Boolean.TRUE;
@@ -27,6 +27,6 @@ public class ComentarioService {
 	}
 
 	public String remover() {
-		return comentarioRemovido;
+		return COMENTARIO_REMOVIDO;
 	}
 }
