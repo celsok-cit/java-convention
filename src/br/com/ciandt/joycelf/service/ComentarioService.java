@@ -5,7 +5,7 @@ package br.com.ciandt.joycelf.service;
  */
 public class ComentarioService {
 
-	private final static String comentarioRemovido = new String("Coment�rio removido!");
+	private final static String COMENTARIO_REMOVIDO = new String("Coment�rio removido!");
 
 	/*
 	 * Construtor da classe
@@ -14,7 +14,6 @@ public class ComentarioService {
 
 	/**
 	 * Adiciona like
-	 * 
 	 * @param comentario
 	 * @return true ou false
 	 */
@@ -33,6 +32,6 @@ public class ComentarioService {
 	 * @return string de comentário removido
 	 */
 	public String _removerComentario() {
-		return comentarioRemovido;
+		return COMENTARIO_REMOVIDO;
 	}
 }
