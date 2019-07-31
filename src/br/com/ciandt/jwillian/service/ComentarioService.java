@@ -20,7 +20,7 @@ public ComentarioService() {}
 	 * @param comentario {@link String} comentário
 	 * @return true caso valor diferente de null ou false se for null
 	 */
-	public Boolean Adicionarlike (String comentario) 
+	public Boolean adicionarLike (String comentario) 
 	{
 		
 		if(comentario != null){
@@ -35,7 +35,7 @@ public ComentarioService() {}
 	 * Metodo que remove comentario
 	 * @return comentário removido
 	 */
-	public String _remover10(){
+	public String remover(){
 		return comentarioRemovido;		
 	}
 }
