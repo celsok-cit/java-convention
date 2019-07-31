@@ -1,10 +1,10 @@
-package br.com.ciandt.joycelf.Models;
+package br.com.ciandt.joycelf.models;
 
-public class Comentarios1 {
+public class Comentarios {
 
 	private String comentario;
-	
-	public Comentarios1() {}
+
+	public Comentarios() {}
 
 	public String getComentario() {
 		return comentario;
@@ -13,5 +13,5 @@ public class Comentarios1 {
 	public void setComentario(String comentario) {
 		this.comentario = comentario;
 	}
-	
+
 }
