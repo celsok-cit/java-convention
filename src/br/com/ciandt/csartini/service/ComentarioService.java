@@ -26,7 +26,7 @@ public class ComentarioService {
 	 * 
 	 * @author csartini
 	 **/
-	private final static String comentarioRemovido = new String("Comentario removido!");
+	private final static String COMENTARIO_REMOVIDO = new String("Comentario removido!");
 
 	public void comentarioService() {
 	}
@@ -51,7 +51,7 @@ public class ComentarioService {
 
 	}
 
-	public String removerDez() {
-		return comentarioRemovido;
+	public String remover() {
+		return COMENTARIO_REMOVIDO;
 	}
 }
