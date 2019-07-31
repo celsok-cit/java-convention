@@ -1,7 +1,9 @@
 package br.com.ciandt.joycelf.service;
 
 /**
- * Classe que controla os comentários
+ * 
+ * @author joycelf
+ *
  */
 public class ComentarioService {
 
@@ -13,11 +15,11 @@ public class ComentarioService {
 	public ComentarioService() {}
 
 	/**
-	 * Adiciona like
+	 * Verifica se o comentário está nulo
 	 * @param comentario
 	 * @return true ou false
 	 */
-	public Boolean adicionarLike(String comentario) {
+	public Boolean verificaComentario(String comentario) {
 		// verifica se o comentario está nulo
 		if (comentario != null) {
 			return Boolean.TRUE;
@@ -28,10 +30,9 @@ public class ComentarioService {
 
 	/**
 	 * Notifica que um comentário foi removido
-	 * 
 	 * @return string de comentário removido
 	 */
-	public String _removerComentario() {
+	public String _remover() {
 		return COMENTARIO_REMOVIDO;
 	}
 }
