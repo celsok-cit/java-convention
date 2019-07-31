@@ -1,37 +1,44 @@
 package br.com.ciandt.thiagodf.service;
 
 /**
- * Classe de serviço para comentários.
+ * Classe de serviço para comentário.
  * 
  * @author thiagodf
  *
  */
 public class ComentarioService {
 
-	private final static String comentarioRemovido = new String("Comentário removido!"); 
+	private final static String COMENTARIO_REMOVIDO = new String("Comentário removido!"); 
 
 /**
- * Método construtor.
+ * Método construtor Comentário Service.
  * 	
  */
-	public void comentarioService() {}
+	public ComentarioService() {}
 
 /**
- * Método que adiciona like.
+ * Método que verifica se o comentário é nullo.
+ * 
  * @param comentario
- * @return Bollean
+ * @return Boolean
  */
-	public Boolean adicionarlike (String comentario) 
-	{
+	public Boolean verificaComentario(String comentario) {
+		
 		// verifica se o comentário é diferente de null
-		if(comentario != null){
+		if (comentario != null) {
 			return Boolean.TRUE;
 		}
 		
 		return Boolean.FALSE;
 		
 	}
-	public String remover(){
-		return comentarioRemovido;		
+	
+/**
+ * Método que remove o comentário.
+ * 
+ * @return
+ */
+	public String remover() {
+		return COMENTARIO_REMOVIDO;		
 	}
 }
