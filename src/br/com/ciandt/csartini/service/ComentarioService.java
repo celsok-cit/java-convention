@@ -1,22 +1,57 @@
 package br.com.ciandt.csartini.service;
 
+/**
+* Método que realiza a remoção do comentário
+* Exemplo: {@code Boolean seraExcluidoSe = comentarioRemovido(comentario)
+* @param comentario {@link} variavel
+* @return se verdadeiro ou falso
+* 
+* @author csartini
+**/
+
+/**
+ * metodo construtor acima
+ * 
+ * @author csartini
+ *
+ */
 public class ComentarioService {
 
-	private final static String comentarioRemovido = new String("Coment�rio removido!"); 
-	
-public ComentarioService() {}
-	
-	public Boolean Adicionarlike (String comentario) 
-	{
-		
-		if(comentario != null){
+	/**
+	 * Método que realiza a remoção do comentário Exemplo:
+	 * {@code Boolean seraExcluidoSe = comentarioRemovido(comentario) @param
+	 * comentario {@link} variavel
+	 * 
+	 * @return se verdadeiro ou falso
+	 * 
+	 * @author csartini
+	 **/
+	private final static String comentarioRemovido = new String("Comentario removido!");
+
+	public void comentarioService() {
+	}
+
+	/**
+	 * Método que realiza a adição de likes Exemplo:
+	 * {@code Boolean seraAdicionado = adicionarLike(comentario) @param comentario
+	 * {@link} variavel
+	 * 
+	 * @return se verdadeiro ou falso
+	 * 
+	 * @author csartini
+	 **/
+	public Boolean adicionarLike(String comentario) {
+
+// verifica se a variável comentario é nula ou não 
+		if (comentario != null) {
 			return Boolean.TRUE;
 		}
-		
+
 		return Boolean.FALSE;
-		
+
 	}
-	public String _remover10(){
-		return comentarioRemovido;		
+
+	public String removerDez() {
+		return comentarioRemovido;
 	}
 }
