@@ -8,17 +8,17 @@ package br.com.ciandt.mhiroshi.service;
 public class ComentarioService {
 
 	private final static String COMENTARIO_REMOVIDO = new String("Comentário removido!"); 
+
+	public ComentarioService() {
 	
-public ComentarioService() {
-	
-}
+	}
+
 	/**
-	 * metodo para adicionar um 'like'
-	 * @param comentario - {@link If} variavel boolean
-	 * @return ira verificar se [e verdadeiro ou falso, se valor for verdadeiro, a função irá adicionar um 'like'"
+	 * metodo para verificar se existe algum comentário, se o valor da (String comentario) é diferente de nulo.
+	 * @param comentario - {@link String} comentário recebido como texto
+	 * @return 
 	 */
-	public Boolean Adicionarlike (String comentario) 
-	{
+	public Boolean verificarComentario(String comentario) {
 		
 		if(comentario != null){
 			return Boolean.TRUE;
@@ -27,11 +27,12 @@ public ComentarioService() {
 		return Boolean.FALSE;
 		
 	}
+	
 	/**
 	 * metodo para retornar valor
 	 * @return 
 	 */
-	public String Remover(){
+	public String Remover() {
 		return COMENTARIO_REMOVIDO;		
 	}
 }
