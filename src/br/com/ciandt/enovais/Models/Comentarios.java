@@ -1,10 +1,10 @@
 package br.com.ciandt.enovais.Models;
 
-public class Comentarios1 {
+public class Comentarios {
 
 	private String comentario;
 	
-	public Comentarios1() {}
+	public Comentarios() {}
 
 	public String getComentario() {
 		return comentario;
